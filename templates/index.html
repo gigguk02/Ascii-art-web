@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet"  href="../css/style.css">
+    <title>ASCII-ART MAIN</title>
+
+</head>
+<body>
+    <h1>ASCII ART WEB</h1>
+    <div class="contain">
+        <form action="/ascii-art" method="POST">
+            <div id="menu">
+                <p>Please select your font:   
+                <select name="banner" id="banner">
+                    <option value="standard">STANDARD</option>
+                    <option value="shadow">SHADOW</option>
+                    <option value="thinkertoy">THINKERTOY</option>
+                   </select></p>
+                   <p>Text To Print </p>
+                <textarea name="text"  rows="5" cols="100"  placeholder="Enter...">{{.Text}}</textarea><br>
+                <button type="submit"> SUBMIT</button>
+                <button type="button" onclick="home()">RESET</button>
+            </div>
+           
+        </form>
+        <script>
+            function home(){
+                window.location.href="/"
+            }
+    
+        </script>
+        <div id="result">
+            <pre>{{.Result}}</pre>
+        </div>
+    
+    
+    </div>
+    
+</body>
+</html>

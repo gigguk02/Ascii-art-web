@@ -1,0 +1,94 @@
+ body{
+            text-align: center;    
+            background-color: #2d2c2c;
+            margin: 0px;
+            padding: 0;
+            font-family: system-ui;
+            color:#f5f5f2;
+        
+}
+textarea[name="text"]{
+    max-width: 1000px; 
+    border-radius: 6px;
+}
+p{
+    font-family: system-ui;
+    font-size: 20px;
+
+}
+select[name="banner"]{
+    padding: 0px 5px;
+	height: 30px;
+    border-radius: 6px;
+    font-weight:bold ;
+
+}
+
+h1{
+    text-align: center;
+    font-family: system-ui;
+}
+#result{
+overflow-x: auto;
+}
+button{
+    padding: 0px 15px;
+	line-height: 30px;
+    border-radius: 6px;
+    font-weight:bold ;
+}
+@media (max-width: 1000px) {
+    body{
+        font-size: 50px;
+
+    }
+    textarea[name="text"]{
+        font-size: 30px;
+        max-width: 700px; 
+        border-radius: 6px;
+    }
+
+	h1{
+        font-size: 50px;
+
+    }
+    p{ 
+        font-size: 50px;
+	}
+    select{
+        line-height: 50px;
+        border-radius: 15px;
+        font-size: 30px;
+    }
+    /* select:focus{
+        font-size: 10px;
+
+    } */
+    option{
+        font-size: 15px;
+    }
+    button{
+        line-height: 50px;
+        border-radius: 15px;
+        font-size: 30px;
+    }
+    a{
+        margin-right: 20px;
+        font-size: 50px;
+        color:white
+    
+
+    }
+
+}
+#goHome{
+    font-size: 20px;
+}
+
+#err{
+    background-color: rgb(25, 13, 103);
+}
+a{
+    color: white;
+    margin-right: 10px;
+}

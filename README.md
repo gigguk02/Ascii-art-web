@@ -11,5 +11,4 @@ click on: http://localhost:8080/
 
 ### Authorss
 
-- **mlaikhkh** (https://01.alem.school/git/mlaikhkh)
 - **gbekbola** (https://01.alem.school/git/gbekbola)
